@@ -1,0 +1,70 @@
+/* Footer Container */
+
+.footer {
+    background-color: var(--color-navy); 
+    color: var(--color-tan);
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  /* Navigation Links */
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-link {
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: var(--color-yellow);
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: var(--color-yellow);
+    text-decoration: underline;
+  }
+  
+ /* Social Media Icons */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem; 
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Icon Hover Colors */
+  .icon.facebook:hover {
+    color: #1877f2;
+  }
+  
+  .icon.instagram:hover {
+    color: #e1306c;
+  }
+  
+  .icon.ubereats:hover {
+    color: #5fb709;
+  }
+  
+  .icon.twitter:hover {
+    color: #1da1f2;
+  }
+  
+  /* All Rights Reserved */
+  .footer-rights {
+    font-size: 0.875rem; 
+    color: #a0aec0; 
+    margin-top: 1rem; 
+  }
