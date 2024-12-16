@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import {
   AboutUs,
   FindUs,
@@ -11,6 +12,8 @@ import {
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
+import MapPage from "./container/FindUs/FindUs";
+
 
 const App = () => (
   <div>
@@ -20,7 +23,7 @@ const App = () => (
     <Menu />
     <Intro />
     <Gallery />
-    <FindUs />
+    <MapPage />
     <Footer />
   </div>
 );
